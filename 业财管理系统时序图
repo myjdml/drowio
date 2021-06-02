@@ -1,49 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2021-05-28T14:03:47.917Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="1Y4220Fr6SoS915OUAra" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-02T00:33:20.649Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="2pdPs_csU9UV4rwoX552" version="14.7.3" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="942" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="7baba1c4bc27f4b0-2" value="收支记录页面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="240" y="80" width="100" height="580" as="geometry" />
+          <mxGeometry x="240" y="80" width="100" height="670" as="geometry" />
         </mxCell>
-        <mxCell id="HaixG4NcbUBbrfxPsQfw-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="7baba1c4bc27f4b0-2">
+        <mxCell id="HaixG4NcbUBbrfxPsQfw-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="7baba1c4bc27f4b0-2" vertex="1">
           <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="HaixG4NcbUBbrfxPsQfw-18" value="3.查询收支数据" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.1;entryY=0.113;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="7baba1c4bc27f4b0-2" target="HaixG4NcbUBbrfxPsQfw-17">
+        <mxCell id="HaixG4NcbUBbrfxPsQfw-18" value="3.查询收支数据" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.1;entryY=0.113;entryDx=0;entryDy=0;entryPerimeter=0;" parent="7baba1c4bc27f4b0-2" target="HaixG4NcbUBbrfxPsQfw-17" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="50" y="80" as="sourcePoint" />
             <mxPoint x="140" y="80" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HaixG4NcbUBbrfxPsQfw-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="7baba1c4bc27f4b0-2">
-          <mxGeometry x="45" y="190" width="10" height="80" as="geometry" />
+        <mxCell id="HaixG4NcbUBbrfxPsQfw-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="7baba1c4bc27f4b0-2" vertex="1">
+          <mxGeometry x="45" y="190" width="10" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="HaixG4NcbUBbrfxPsQfw-24" value="8. 输入修改内容" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="7baba1c4bc27f4b0-2" target="7baba1c4bc27f4b0-2">
-          <mxGeometry x="-0.1701" y="14" width="80" relative="1" as="geometry">
+        <mxCell id="HaixG4NcbUBbrfxPsQfw-24" value="8. 输入修改内容" style="html=1;verticalAlign=bottom;endArrow=block;" parent="7baba1c4bc27f4b0-2" target="7baba1c4bc27f4b0-2" edge="1">
+          <mxGeometry x="-0.1672" y="-10" width="80" relative="1" as="geometry">
             <mxPoint x="50" y="200" as="sourcePoint" />
             <mxPoint x="140" y="260" as="targetPoint" />
             <Array as="points">
               <mxPoint x="100" y="200" />
               <mxPoint x="100" y="220" />
             </Array>
-            <mxPoint x="-4" y="-10" as="offset" />
+            <mxPoint y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HaixG4NcbUBbrfxPsQfw-25" value="9. 提交修改" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="7baba1c4bc27f4b0-2" target="7baba1c4bc27f4b0-3">
+        <mxCell id="HaixG4NcbUBbrfxPsQfw-25" value="9. 提交修改" style="html=1;verticalAlign=bottom;endArrow=block;" parent="7baba1c4bc27f4b0-2" target="7baba1c4bc27f4b0-3" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="60" y="250" as="sourcePoint" />
             <mxPoint x="140" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-3" value="收支记录Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="400" y="80" width="100" height="580" as="geometry" />
+        <mxCell id="E3pEYVDwba82UioF24q3-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="7baba1c4bc27f4b0-2">
+          <mxGeometry x="45" y="345" width="10" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="HaixG4NcbUBbrfxPsQfw-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="7baba1c4bc27f4b0-3">
+        <mxCell id="E3pEYVDwba82UioF24q3-7" value="14.输入查询内容" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="7baba1c4bc27f4b0-2">
+          <mxGeometry x="-0.1974" y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="360" as="sourcePoint" />
+            <mxPoint x="45" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="360" />
+              <mxPoint x="100" y="380" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3pEYVDwba82UioF24q3-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="7baba1c4bc27f4b0-2">
+          <mxGeometry x="45" y="520" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-3" value="收支记录Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="400" y="80" width="100" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="HaixG4NcbUBbrfxPsQfw-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="7baba1c4bc27f4b0-3" vertex="1">
           <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="HaixG4NcbUBbrfxPsQfw-19" value="4.查询收支记录表" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.1;exitY=0.163;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.888;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="7baba1c4bc27f4b0-3" source="HaixG4NcbUBbrfxPsQfw-17" target="HaixG4NcbUBbrfxPsQfw-17">
+        <mxCell id="HaixG4NcbUBbrfxPsQfw-19" value="4.查询收支记录表" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.1;exitY=0.163;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.888;entryDx=0;entryDy=0;entryPerimeter=0;" parent="7baba1c4bc27f4b0-3" source="HaixG4NcbUBbrfxPsQfw-17" target="HaixG4NcbUBbrfxPsQfw-17" edge="1">
           <mxGeometry x="-0.0241" y="51" width="80" relative="1" as="geometry">
             <mxPoint x="120" y="130" as="sourcePoint" />
             <mxPoint x="250" y="170" as="targetPoint" />
@@ -55,47 +72,77 @@
             <mxPoint x="4" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HaixG4NcbUBbrfxPsQfw-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="7baba1c4bc27f4b0-3">
+        <mxCell id="HaixG4NcbUBbrfxPsQfw-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="7baba1c4bc27f4b0-3" vertex="1">
           <mxGeometry x="45" y="240" width="10" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="E3pEYVDwba82UioF24q3-1" value="10.调用接口，修改信息" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.083;exitY=0.118;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="7baba1c4bc27f4b0-3" source="HaixG4NcbUBbrfxPsQfw-26">
+          <mxGeometry x="0.0165" y="70" width="80" relative="1" as="geometry">
+            <mxPoint x="40" y="245" as="sourcePoint" />
+            <mxPoint x="50" y="315" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="260" />
+              <mxPoint x="90" y="285" />
+              <mxPoint x="80" y="300" />
+            </Array>
+            <mxPoint x="12" y="-34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3pEYVDwba82UioF24q3-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="7baba1c4bc27f4b0-3">
+          <mxGeometry x="45" y="400" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="E3pEYVDwba82UioF24q3-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="7baba1c4bc27f4b0-3">
+          <mxGeometry x="45" y="560" width="10" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="7baba1c4bc27f4b0-8" value="收支记录Action" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="100" y="80" width="100" height="580" as="geometry" />
+          <mxGeometry x="100" y="80" width="100" height="670" as="geometry" />
         </mxCell>
-        <mxCell id="HaixG4NcbUBbrfxPsQfw-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="7baba1c4bc27f4b0-8">
-          <mxGeometry x="45" y="70" width="10" height="480" as="geometry" />
+        <mxCell id="HaixG4NcbUBbrfxPsQfw-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="7baba1c4bc27f4b0-8" vertex="1">
+          <mxGeometry x="45" y="70" width="10" height="570" as="geometry" />
         </mxCell>
-        <mxCell id="HaixG4NcbUBbrfxPsQfw-15" value="2. 查看收支记录" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="7baba1c4bc27f4b0-8">
+        <mxCell id="HaixG4NcbUBbrfxPsQfw-15" value="2. 查看收支记录" style="html=1;verticalAlign=bottom;endArrow=block;" parent="7baba1c4bc27f4b0-8" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="50" y="80" as="sourcePoint" />
             <mxPoint x="190" y="80" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HaixG4NcbUBbrfxPsQfw-11" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="30" width="20" height="630" as="geometry" />
+        <mxCell id="E3pEYVDwba82UioF24q3-5" value="13.查询收支记录" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="7baba1c4bc27f4b0-8">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="360" as="sourcePoint" />
+            <mxPoint x="190" y="360" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="HaixG4NcbUBbrfxPsQfw-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="HaixG4NcbUBbrfxPsQfw-11">
+        <mxCell id="E3pEYVDwba82UioF24q3-13" value="19.修改收支记录" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="7baba1c4bc27f4b0-8">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="530" as="sourcePoint" />
+            <mxPoint x="190" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HaixG4NcbUBbrfxPsQfw-11" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="30" width="20" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="HaixG4NcbUBbrfxPsQfw-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="HaixG4NcbUBbrfxPsQfw-11" vertex="1">
           <mxGeometry x="5" y="120" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HaixG4NcbUBbrfxPsQfw-13" value="1.进入收支&lt;br&gt;记录web" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+        <mxCell id="HaixG4NcbUBbrfxPsQfw-13" value="1.进入收支&lt;br&gt;记录web" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="55" y="160" as="sourcePoint" />
             <mxPoint x="145" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HaixG4NcbUBbrfxPsQfw-20" value="5. 返回收支记录数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="7baba1c4bc27f4b0-2">
+        <mxCell id="HaixG4NcbUBbrfxPsQfw-20" value="5. 返回收支记录数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" target="7baba1c4bc27f4b0-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="440" y="220" as="sourcePoint" />
             <mxPoint x="360" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HaixG4NcbUBbrfxPsQfw-21" value="6. 页面刷新成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="7baba1c4bc27f4b0-8">
+        <mxCell id="HaixG4NcbUBbrfxPsQfw-21" value="6. 页面刷新成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" target="7baba1c4bc27f4b0-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280" y="220" as="sourcePoint" />
             <mxPoint x="200" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HaixG4NcbUBbrfxPsQfw-22" value="7. 新建收支记录" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="HaixG4NcbUBbrfxPsQfw-23">
+        <mxCell id="HaixG4NcbUBbrfxPsQfw-22" value="7. 新建收支记录" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" target="HaixG4NcbUBbrfxPsQfw-23" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="150" y="280" as="sourcePoint" />
             <mxPoint x="290" y="280" as="targetPoint" />
@@ -103,6 +150,95 @@
             <Array as="points">
               <mxPoint x="220" y="280" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3pEYVDwba82UioF24q3-2" value="11.返回修改后的记录" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="7baba1c4bc27f4b0-2">
+          <mxGeometry x="-0.0021" y="-10" relative="1" as="geometry">
+            <mxPoint x="450" y="390" as="sourcePoint" />
+            <mxPoint x="370" y="390" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3pEYVDwba82UioF24q3-3" value="12.页面刷新成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="7baba1c4bc27f4b0-8">
+          <mxGeometry x="-0.0024" y="-10" relative="1" as="geometry">
+            <mxPoint x="290" y="390" as="sourcePoint" />
+            <mxPoint x="210" y="390" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3pEYVDwba82UioF24q3-8" value="15. 提交查询" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.186;entryY=0.116;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="E3pEYVDwba82UioF24q3-6">
+          <mxGeometry x="-0.0635" width="80" relative="1" as="geometry">
+            <mxPoint x="290" y="490" as="sourcePoint" />
+            <mxPoint x="446" y="488" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3pEYVDwba82UioF24q3-9" value="16.调用接口，查询信息" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.083;exitY=0.118;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.0165" y="70" width="80" relative="1" as="geometry">
+            <mxPoint x="455.83000000000004" y="489.99999999999994" as="sourcePoint" />
+            <mxPoint x="450" y="555.56" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="500.56" />
+              <mxPoint x="490" y="525.56" />
+              <mxPoint x="480" y="540.56" />
+            </Array>
+            <mxPoint x="12" y="-34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3pEYVDwba82UioF24q3-10" value="17.返回查询后的信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="550" as="sourcePoint" />
+            <mxPoint x="290" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3pEYVDwba82UioF24q3-11" value="18.页面刷新成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry x="-0.0005" y="-10" relative="1" as="geometry">
+            <mxPoint x="290.07" y="550" as="sourcePoint" />
+            <mxPoint x="149.99857142857144" y="550" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3pEYVDwba82UioF24q3-14" value="20.输入修改内容" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry x="-0.1974" y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="290" y="609.9999999999999" as="sourcePoint" />
+            <mxPoint x="285" y="629.9999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="610" />
+              <mxPoint x="340" y="630" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3pEYVDwba82UioF24q3-16" value="21. 提交修改" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.186;entryY=0.116;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0635" width="80" relative="1" as="geometry">
+            <mxPoint x="290" y="660.7199999999999" as="sourcePoint" />
+            <mxPoint x="443.1400000000001" y="659.9999999999999" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3pEYVDwba82UioF24q3-17" value="22.调用接口，修改信息" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.083;exitY=0.118;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.0165" y="70" width="80" relative="1" as="geometry">
+            <mxPoint x="455.8299999999999" y="649.9999999999999" as="sourcePoint" />
+            <mxPoint x="450" y="715.5600000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="660.56" />
+              <mxPoint x="490" y="685.56" />
+              <mxPoint x="480" y="700.56" />
+            </Array>
+            <mxPoint x="12" y="-34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3pEYVDwba82UioF24q3-18" value="17.返回修改后的信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="709.9999999999999" as="sourcePoint" />
+            <mxPoint x="290" y="709.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3pEYVDwba82UioF24q3-19" value="18.页面刷新成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry x="-0.0005" y="-10" relative="1" as="geometry">
+            <mxPoint x="290.0699999999998" y="709.9999999999999" as="sourcePoint" />
+            <mxPoint x="149.9985714285715" y="709.9999999999999" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>

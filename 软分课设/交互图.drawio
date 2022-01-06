@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-06T01:25:51.733Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="FlYsHcT7bNTlvqmNeKk9" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-06T01:32:10.184Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="weq-sN9e7JoYBkI0cXHp" version="16.2.2" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1018" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -120,6 +120,15 @@
             <mxPoint x="290" y="590" as="sourcePoint" />
             <mxPoint x="210" y="590" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="f3t8Dy3waux5yIoCynqv-22" value="管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="820" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f3t8Dy3waux5yIoCynqv-23" value="图书管理模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f3t8Dy3waux5yIoCynqv-24" value="人员管理模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="830" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

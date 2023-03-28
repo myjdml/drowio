@@ -1,9 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2023-03-28T13:58:31.620Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.1" etag="gvLFLAX-VT8T6k9HCgYT" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-28T14:03:22.236Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="wq2oVVcO9B3OraSNCfVO" version="21.1.1" type="github">
   <diagram name="第 1 页" id="DgCkes6lIsRVWix9kdcJ">
-    <mxGraphModel>
+    <mxGraphModel dx="933" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ZgWRuBd4F0ss7ih4vdJ8-1" value="普通用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="230" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgWRuBd4F0ss7ih4vdJ8-3" value="评论" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="230" y="330" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgWRuBd4F0ss7ih4vdJ8-4" value="发布帖子" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="230" y="270" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgWRuBd4F0ss7ih4vdJ8-5" value="管理个人信息" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="230" y="210" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgWRuBd4F0ss7ih4vdJ8-6" value="登录" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="230" y="150" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgWRuBd4F0ss7ih4vdJ8-7" value="注册" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="230" y="90" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgWRuBd4F0ss7ih4vdJ8-10" value="与商家沟通" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="230" y="390" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgWRuBd4F0ss7ih4vdJ8-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.019;entryY=0.56;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZgWRuBd4F0ss7ih4vdJ8-1" target="ZgWRuBd4F0ss7ih4vdJ8-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="210" as="sourcePoint" />
+            <mxPoint x="190" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZgWRuBd4F0ss7ih4vdJ8-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="ZgWRuBd4F0ss7ih4vdJ8-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="250" as="sourcePoint" />
+            <mxPoint x="239" y="128" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZgWRuBd4F0ss7ih4vdJ8-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="ZgWRuBd4F0ss7ih4vdJ8-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="250" as="sourcePoint" />
+            <mxPoint x="249" y="138" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZgWRuBd4F0ss7ih4vdJ8-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZgWRuBd4F0ss7ih4vdJ8-1" target="ZgWRuBd4F0ss7ih4vdJ8-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="260" as="sourcePoint" />
+            <mxPoint x="259" y="148" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZgWRuBd4F0ss7ih4vdJ8-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="ZgWRuBd4F0ss7ih4vdJ8-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="250" as="sourcePoint" />
+            <mxPoint x="269" y="158" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZgWRuBd4F0ss7ih4vdJ8-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="ZgWRuBd4F0ss7ih4vdJ8-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="250" as="sourcePoint" />
+            <mxPoint x="279" y="168" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

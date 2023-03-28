@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-03-28T14:09:30.984Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.1" etag="sXMFkL6w_Rzyr0oN76wX" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-28T14:11:07.203Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="uGIPNh_PGFUTwegWDNZa" version="21.1.1" type="github">
   <diagram name="第 1 页" id="pQwArKR6gvez39i_IRZ6">
-    <mxGraphModel>
+    <mxGraphModel dx="1026" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="yTb3_DYY7nIbmaCTiEM5-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yTb3_DYY7nIbmaCTiEM5-1" target="yTb3_DYY7nIbmaCTiEM5-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="220" as="sourcePoint" />
+            <mxPoint x="300" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yTb3_DYY7nIbmaCTiEM5-1" value="管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="200" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yTb3_DYY7nIbmaCTiEM5-2" value="登录" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="110" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yTb3_DYY7nIbmaCTiEM5-3" value="管理用户" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="210" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yTb3_DYY7nIbmaCTiEM5-4" value="管理商家" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="310" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yTb3_DYY7nIbmaCTiEM5-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="yTb3_DYY7nIbmaCTiEM5-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="220" as="sourcePoint" />
+            <mxPoint x="250" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yTb3_DYY7nIbmaCTiEM5-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="yTb3_DYY7nIbmaCTiEM5-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="220" as="sourcePoint" />
+            <mxPoint x="250" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

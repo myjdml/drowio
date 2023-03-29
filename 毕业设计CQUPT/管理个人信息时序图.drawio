@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T13:12:39.849Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="tCUAxFKu-7TBQ3xl7i3v" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-29T13:15:46.250Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="7NUsK8VMxe1O_S3Y3bf6" version="21.1.1" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="2126" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -49,7 +49,7 @@
         <mxCell id="7baba1c4bc27f4b0-5" value="dao" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="680" y="80" width="100" height="580" as="geometry" />
         </mxCell>
-        <mxCell id="-mmKebMZnPX7TyjY1fdx-2" value="访问数据库" style="endArrow=classic;html=1;rounded=0;" parent="7baba1c4bc27f4b0-5" target="7baba1c4bc27f4b0-6" edge="1">
+        <mxCell id="-mmKebMZnPX7TyjY1fdx-2" value="修改数据库" style="endArrow=classic;html=1;rounded=0;" parent="7baba1c4bc27f4b0-5" target="7baba1c4bc27f4b0-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="60" y="160" as="sourcePoint" />
             <mxPoint x="110" y="110" as="targetPoint" />
@@ -76,7 +76,7 @@
         <mxCell id="7baba1c4bc27f4b0-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-8" vertex="1">
           <mxGeometry x="45" y="100" width="10" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="-mmKebMZnPX7TyjY1fdx-9" value="发送请求" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="7baba1c4bc27f4b0-8" edge="1">
+        <mxCell id="-mmKebMZnPX7TyjY1fdx-9" value="发送请求（鉴权）" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="7baba1c4bc27f4b0-8" edge="1">
           <mxGeometry x="0.5472" relative="1" as="geometry">
             <mxPoint x="185" y="110" as="sourcePoint" />
             <mxPoint x="180" y="110" as="targetPoint" />
@@ -98,7 +98,7 @@
         <mxCell id="7baba1c4bc27f4b0-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="585" y="220" width="10" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-17" value="启动JWT服务" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="7baba1c4bc27f4b0-13" target="7baba1c4bc27f4b0-16" edge="1">
+        <mxCell id="7baba1c4bc27f4b0-17" value="调用修改信息服务" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="7baba1c4bc27f4b0-13" target="7baba1c4bc27f4b0-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="510" y="220" as="sourcePoint" />
             <Array as="points">
@@ -109,12 +109,12 @@
         <mxCell id="7baba1c4bc27f4b0-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="725" y="230" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-20" value="查询用户信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="7baba1c4bc27f4b0-16" target="7baba1c4bc27f4b0-19" edge="1">
+        <mxCell id="7baba1c4bc27f4b0-20" value="修改用户信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="7baba1c4bc27f4b0-16" target="7baba1c4bc27f4b0-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="650" y="230" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-11" value="点击登录" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="7baba1c4bc27f4b0-9" edge="1">
+        <mxCell id="7baba1c4bc27f4b0-11" value="保存修改的个人信息" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="7baba1c4bc27f4b0-9" edge="1">
           <mxGeometry x="0.5472" relative="1" as="geometry">
             <mxPoint x="220" y="190" as="sourcePoint" />
             <mxPoint x="140" y="180" as="targetPoint" />
@@ -124,7 +124,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-14" value="调用登陆函数" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="7baba1c4bc27f4b0-10" target="7baba1c4bc27f4b0-13" edge="1">
+        <mxCell id="7baba1c4bc27f4b0-14" value="调用修改个人信息函数" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="7baba1c4bc27f4b0-10" target="7baba1c4bc27f4b0-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="370" y="200" as="sourcePoint" />
           </mxGeometry>

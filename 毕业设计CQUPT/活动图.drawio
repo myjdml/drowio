@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-04T09:04:10.154Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Z3OJWvp96NsBlZCOqr3y" version="21.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-04T14:11:54.726Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Q6dg1hLqYCa4RjQQzfi3" version="21.3.3" type="github">
   <diagram name="第 1 页" id="DuSa1ma9hfOyqlgyJqKl">
-    <mxGraphModel dx="1434" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="661" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -60,6 +60,79 @@
         </mxCell>
         <mxCell id="k1W_VtMeVklJ9Q2fmS2C-16" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="345" y="490" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k1W_VtMeVklJ9Q2fmS2C-20" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="750" y="60" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k1W_VtMeVklJ9Q2fmS2C-21" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="k1W_VtMeVklJ9Q2fmS2C-20" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="765" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k1W_VtMeVklJ9Q2fmS2C-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k1W_VtMeVklJ9Q2fmS2C-22" target="k1W_VtMeVklJ9Q2fmS2C-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k1W_VtMeVklJ9Q2fmS2C-22" value="进入帖子主页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="150" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k1W_VtMeVklJ9Q2fmS2C-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k1W_VtMeVklJ9Q2fmS2C-24" target="k1W_VtMeVklJ9Q2fmS2C-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k1W_VtMeVklJ9Q2fmS2C-24" value="点击发布帖子按钮" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="220" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k1W_VtMeVklJ9Q2fmS2C-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k1W_VtMeVklJ9Q2fmS2C-25" target="k1W_VtMeVklJ9Q2fmS2C-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k1W_VtMeVklJ9Q2fmS2C-25" value="填写帖子信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="290" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k1W_VtMeVklJ9Q2fmS2C-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k1W_VtMeVklJ9Q2fmS2C-26" target="k1W_VtMeVklJ9Q2fmS2C-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k1W_VtMeVklJ9Q2fmS2C-26" value="点击发送" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="360" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k1W_VtMeVklJ9Q2fmS2C-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k1W_VtMeVklJ9Q2fmS2C-27" target="k1W_VtMeVklJ9Q2fmS2C-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k1W_VtMeVklJ9Q2fmS2C-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k1W_VtMeVklJ9Q2fmS2C-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k1W_VtMeVklJ9Q2fmS2C-27" value="是否成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="420" width="113" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="k1W_VtMeVklJ9Q2fmS2C-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k1W_VtMeVklJ9Q2fmS2C-32" target="k1W_VtMeVklJ9Q2fmS2C-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k1W_VtMeVklJ9Q2fmS2C-32" value="将帖子信息存入数据库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="510" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k1W_VtMeVklJ9Q2fmS2C-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k1W_VtMeVklJ9Q2fmS2C-33" target="k1W_VtMeVklJ9Q2fmS2C-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k1W_VtMeVklJ9Q2fmS2C-33" value="显式发送成功" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="585" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k1W_VtMeVklJ9Q2fmS2C-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k1W_VtMeVklJ9Q2fmS2C-34" target="k1W_VtMeVklJ9Q2fmS2C-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k1W_VtMeVklJ9Q2fmS2C-34" value="显式发送错误" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="510" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k1W_VtMeVklJ9Q2fmS2C-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k1W_VtMeVklJ9Q2fmS2C-35" target="k1W_VtMeVklJ9Q2fmS2C-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k1W_VtMeVklJ9Q2fmS2C-35" value="检查帖子信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="585" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k1W_VtMeVklJ9Q2fmS2C-40" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="660" y="650" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k1W_VtMeVklJ9Q2fmS2C-41" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="860" y="650" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
